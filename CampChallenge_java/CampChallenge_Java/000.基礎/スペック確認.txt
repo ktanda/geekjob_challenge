@@ -1,0 +1,4 @@
+OS:windows
+エディション:windows 10 Home
+CPU:2.5GHz
+メモリ:4.00GB
