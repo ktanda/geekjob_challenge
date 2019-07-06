@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>商品入力</title>
+</head>
+<body>
+	<form action="./query_string_output.jsp" method="get">
+		<p>購入した商品の種類、個数とその総額を記入してください
+		（種類は1 が「雑貨」，2 が「生鮮食品」， 3 が「その他」になります）</p>
+		<p>
+		種別:<input type="number" name="type">
+		個数:<input type="number" name="num">
+		</p>
+		<p>合計:<input type="number" name="total"></p>
+
+		<input type="submit" name="btnSubmit">
+	</form>
+</body>
+</html>
